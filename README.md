@@ -8,9 +8,9 @@
 
 ## 📖 About
 
-This repository contains my hands-on practice while learning Python for Data Science.
+This repository contains my hands-on practice while learning Python for Data Science in Google Colab and Jupyter Notebook.
 
-The goal of this repository is to build strong fundamentals before moving toward:
+The goal is to build strong fundamentals before moving toward:
 
 - Machine Learning
 - Deep Learning
@@ -18,7 +18,7 @@ The goal of this repository is to build strong fundamentals before moving toward
 - Data Analytics
 - Data Science Projects
 
-Every notebook, script, and dataset here represents concepts that I have personally practiced during my learning journey.
+Each notebook, script, and dataset here reflects concepts I practiced during my learning journey.
 
 ---
 
@@ -90,6 +90,7 @@ Practice with:
 - Pie Chart
 - Bar Chart
 - Area Plot
+- Matplotlib examples and notebooks
 
 ### 🤖 Machine Learning
 
@@ -109,26 +110,86 @@ Current Practice:
 ## 📂 Repository Structure
 
 ```text
-Python-For-Data-Science/
+Colab-work/
 
 ├── 01_Python_Basics/
+│   └── python_basics.py
 ├── 02_NumPy/
+│   └── Numpy.ipynb
 ├── 03_Pandas/
+│   └── pandas.ipynb
 ├── 04_Data_Cleaning/
 ├── 05_Data_Visualization/
+│   └── Matplotlib/
+│       ├── Matplotlib.ipynb
+│       ├── Matplotlib.py
+│       └── matplotlib_examples.py
 ├── 06_Machine_Learning/
-├── Datasets/
-│   ├── orders.csv
-│   ├── messy_tips_dataset.csv
-│   └── SuperStore.xls
+│   ├── Linear_Regression.ipynb
+│   ├── Practice_Linear_Regression.ipynb
+│   └── supervisedML.py
 ├── CheatSheets/
-│   ├── numpy-cheat-sheet.png
-│   └── pandas-cheatsheet.png
+├── Datasets/
+│   ├── messy_tips_dataset.csv
+│   └── orders.csv
 ├── Practice_Programs/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Shivamxxpathak/Colab-work.git
+cd Colab-work
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Open the notebooks
+
+You can open the notebooks in:
+
+- Jupyter Notebook
+- JupyterLab
+- Google Colab
+
+Recommended starting points:
+
+- [01_Python_Basics/python_basics.py](01_Python_Basics/python_basics.py)
+- [02_NumPy/Numpy.ipynb](02_NumPy/Numpy.ipynb)
+- [03_Pandas/pandas.ipynb](03_Pandas/pandas.ipynb)
+- [05_Data_Visualization/Matplotlib/Matplotlib.ipynb](05_Data_Visualization/Matplotlib/Matplotlib.ipynb)
+- [06_Machine_Learning/Linear_Regression.ipynb](06_Machine_Learning/Linear_Regression.ipynb)
+
+### 4. Run the files
+
+- Use Python scripts directly with:
+
+```bash
+python file_name.py
+```
+
+- Open notebooks cell by cell to follow the practice exercises.
+
+---
+
+## 🆕 Recent Additions
+
+The repository now includes:
+
+- Matplotlib practice notebook and script under the visualization folder
+- Linear regression notebooks under the machine learning folder
+- Organized practice files for better topic-based learning
 
 ---
 

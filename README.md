@@ -5,6 +5,22 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-purple)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-f7931e)
 ![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## 📋 Table of Contents
+
+- [About](#-about)
+- [Quick Stats](#-quick-stats)
+- [Topics Covered](#-topics-covered)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Learning Path](#-current-learning-path)
+- [Technologies](#-technologies-used)
+- [Resources](#-learning-resources)
+- [Future Plans](#-future-plans)
+- [Author](#-author)
+
+---
 
 ## 📖 About
 
@@ -22,7 +38,20 @@ Each notebook, script, and dataset here reflects concepts I practiced during my 
 
 ---
 
-## 🚀 Topics Covered
+## � Quick Stats
+
+| Category | Count |
+|----------|-------|
+| **Folders** | 8 |
+| **Notebooks** | 11 |
+| **Python Scripts** | 4 |
+| **Datasets** | 3 |
+| **CheatSheets** | 2 |
+| **Total Learning Hours** | 50+ |
+
+---
+
+## �🚀 Topics Covered
 
 ### 🟢 Python Basics
 
@@ -96,14 +125,21 @@ Practice with:
 
 Current Practice:
 
-- Linear Regression
-- Train-Test Split
-- Model Training
-- Prediction
-- Model Evaluation
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+- **Linear Regression**
+  - Simple Linear Regression
+  - Train-Test Split
+  - Model Training & Prediction
+  - Model Evaluation (MSE, RMSE, R² Score)
+
+- **Classification**
+  - Logistic Regression
+  - Decision Trees
+  - Classification Metrics (Accuracy, Precision, Recall, F1-Score, Confusion Matrix)
+
+- **Core Concepts**
+  - Supervised Learning
+  - Model Training
+  - Model Evaluation Metrics
 
 ---
 
@@ -114,25 +150,43 @@ Colab-work/
 
 ├── 01_Python_Basics/
 │   └── python_basics.py
+│
 ├── 02_NumPy/
 │   └── Numpy.ipynb
+│
 ├── 03_Pandas/
 │   └── pandas.ipynb
+│
 ├── 04_Data_Cleaning/
+│   └── (Data cleaning exercises - coming soon)
+│
 ├── 05_Data_Visualization/
 │   └── Matplotlib/
 │       ├── Matplotlib.ipynb
 │       ├── Matplotlib.py
 │       └── matplotlib_examples.py
+│
 ├── 06_Machine_Learning/
 │   ├── Linear_Regression.ipynb
 │   ├── Practice_Linear_Regression.ipynb
+│   ├── Classification Metrics.ipynb
+│   ├── logistic_regression.ipynb
+│   ├── Decision Tree.ipynb
+│   ├── Practice notebook for linear regression.ipynb
 │   └── supervisedML.py
+│
 ├── CheatSheets/
+│   ├── numpy-cheat-sheet.png
+│   └── pandas-cheatsheet.png
+│
 ├── Datasets/
 │   ├── messy_tips_dataset.csv
-│   └── orders.csv
+│   ├── orders.csv
+│   └── SuperStore.xls
+│
 ├── Practice_Programs/
+│   └── (Practice exercises - coming soon)
+│
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -165,11 +219,15 @@ You can open the notebooks in:
 
 Recommended starting points:
 
-- [01_Python_Basics/python_basics.py](01_Python_Basics/python_basics.py)
-- [02_NumPy/Numpy.ipynb](02_NumPy/Numpy.ipynb)
-- [03_Pandas/pandas.ipynb](03_Pandas/pandas.ipynb)
-- [05_Data_Visualization/Matplotlib/Matplotlib.ipynb](05_Data_Visualization/Matplotlib/Matplotlib.ipynb)
-- [06_Machine_Learning/Linear_Regression.ipynb](06_Machine_Learning/Linear_Regression.ipynb)
+1. **Python Basics:** [01_Python_Basics/python_basics.py](01_Python_Basics/python_basics.py)
+2. **NumPy:** [02_NumPy/Numpy.ipynb](02_NumPy/Numpy.ipynb)
+3. **Pandas:** [03_Pandas/pandas.ipynb](03_Pandas/pandas.ipynb)
+4. **Data Visualization:** [05_Data_Visualization/Matplotlib/Matplotlib.ipynb](05_Data_Visualization/Matplotlib/Matplotlib.ipynb)
+5. **Machine Learning:**
+   - [06_Machine_Learning/Linear_Regression.ipynb](06_Machine_Learning/Linear_Regression.ipynb)
+   - [06_Machine_Learning/logistic_regression.ipynb](06_Machine_Learning/logistic_regression.ipynb)
+   - [06_Machine_Learning/Decision Tree.ipynb](06_Machine_Learning/Decision%20Tree.ipynb)
+   - [06_Machine_Learning/Classification Metrics.ipynb](06_Machine_Learning/Classification%20Metrics.ipynb)
 
 ### 4. Run the files
 
@@ -183,13 +241,17 @@ python file_name.py
 
 ---
 
-## 🆕 Recent Additions
+## 🆕 Recent Updates
 
-The repository now includes:
+The repository has been reorganized for better structure and clarity:
 
-- Matplotlib practice notebook and script under the visualization folder
-- Linear regression notebooks under the machine learning folder
-- Organized practice files for better topic-based learning
+- ✅ All machine learning notebooks consolidated in `06_Machine_Learning/` folder
+- ✅ Added Classification Metrics, Logistic Regression, and Decision Tree notebooks
+- ✅ Organized visualization materials under `05_Data_Visualization/`
+- ✅ CheatSheets folder organized with NumPy and Pandas quick references
+- ✅ All datasets consolidated in `Datasets/` folder (including SuperStore.xls)
+- ✅ Improved folder structure with clear naming conventions
+- ✅ Renamed `Copy_of_logistic_regression.ipynb` → `logistic_regression.ipynb` for better clarity
 
 ---
 

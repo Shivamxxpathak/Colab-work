@@ -1,145 +1,149 @@
-# 🐍 Python for Data Science Practice Repository
+# 🐍 Python & Machine Learning Practice Repository
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![NumPy](https://img.shields.io/badge/NumPy-Learning-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-purple)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-f7931e)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📋 Table of Contents
-
-- [About](#-about)
-- [Quick Stats](#-quick-stats)
-- [Topics Covered](#-topics-covered)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-- [Learning Path](#-current-learning-path)
-- [Technologies](#-technologies-used)
-- [Resources](#-learning-resources)
-- [Future Plans](#-future-plans)
-- [Author](#-author)
-
----
-
 ## 📖 About
 
-This repository contains my hands-on practice while learning Python for Data Science in Google Colab and Jupyter Notebook.
+This repository contains my hands-on learning and practice in **Python, NumPy, Pandas, Data Visualization, and Machine Learning**, primarily developed in Google Colab and Jupyter Notebook.
 
-The goal is to build strong fundamentals before moving toward:
+It is a structured learning log where I build concepts through code, exercises, datasets, model evaluation, and progressively more advanced machine-learning techniques.
 
-- Machine Learning
-- Deep Learning
-- Artificial Intelligence
-- Data Analytics
-- Data Science Projects
+### 🎯 Current Goal
 
-Each notebook, script, and dataset here reflects concepts I practiced during my learning journey.
+Build a strong foundation for **AI, Machine Learning, and Data Science** by moving from Python fundamentals into supervised learning, model evaluation, and practical projects.
 
 ---
 
-## � Quick Stats
+## 🧭 Learning Path
 
-| Category | Count |
-|----------|-------|
-| **Folders** | 8 |
-| **Notebooks** | 11 |
-| **Python Scripts** | 4 |
-| **Datasets** | 3 |
-| **CheatSheets** | 2 |
-| **Total Learning Hours** | 50+ |
+```text
+Python Basics
+      ↓
+NumPy
+      ↓
+Pandas
+      ↓
+Data Cleaning
+      ↓
+Data Visualization
+      ↓
+Machine Learning
+      ↓
+Supervised Learning
+      ↓
+Model Evaluation
+      ↓
+Hyperparameter Tuning
+      ↓
+Machine Learning Projects
+```
 
 ---
 
-## �🚀 Topics Covered
+## 📚 Topics Covered
 
 ### 🟢 Python Basics
 
-- Variables
-- Data Types
+- Variables and data types
 - Operators
-- Conditional Statements
+- Conditional statements
 - Loops
 - Functions
 - Strings
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- File Handling
-- Exception Handling
+- Lists, tuples, sets, dictionaries
+- File handling
+- Exception handling
 
 ### 🔵 NumPy
 
-- Creating Arrays
-- Array Indexing
-- Array Slicing
-- Boolean Indexing
-- Fancy Indexing
-- Array Mathematics
+- Array creation and indexing
+- Slicing and Boolean indexing
 - Broadcasting
-- Aggregate Functions
+- Mathematical and aggregate operations
 - Sorting
-- Copying Arrays
-- Array Manipulation
-- Shape & Reshaping
-- Stack & Split
-- Saving & Loading Arrays
+- Reshaping and manipulation
+- Stack and split
+- Saving and loading arrays
 
 ### 🟣 Pandas
 
-- Series
-- DataFrames
-- Importing Data
-- Exporting Data
-- Inspecting Data
-- Selecting Columns
-- Selecting Rows
-- loc & iloc
-- Cleaning Data
-- Missing Values
-- GroupBy
-- Aggregation
-- Merge & Join
-- Sorting
-- Filtering
-- String Operations
-- DateTime Operations
-- Data Visualization
-- Performance Optimization
+- Series and DataFrames
+- Import/export
+- Data inspection
+- Row/column selection
+- `loc` and `iloc`
+- Missing-value handling
+- Filtering and sorting
+- GroupBy and aggregation
+- Merge and join
+- String and datetime operations
+- Data cleaning and optimization
 
 ### 📊 Data Visualization
 
-Practice with:
-
-- Line Plot
-- Scatter Plot
-- Histogram
-- Box Plot
-- Pie Chart
-- Bar Chart
-- Area Plot
-- Matplotlib examples and notebooks
+- Line plots
+- Scatter plots
+- Bar charts
+- Histograms
+- Box plots
+- Pie charts
+- Area plots
+- Matplotlib practice
 
 ### 🤖 Machine Learning
 
-Current Practice:
+#### Regression
 
-- **Linear Regression**
-  - Simple Linear Regression
-  - Train-Test Split
-  - Model Training & Prediction
-  - Model Evaluation (MSE, RMSE, R² Score)
+- Linear Regression
+- Train/test split
+- Prediction
+- MSE
+- RMSE
+- R² score
 
-- **Classification**
-  - Logistic Regression
-  - Decision Trees
-  - Classification Metrics (Accuracy, Precision, Recall, F1-Score, Confusion Matrix)
+#### Classification
 
-- **Core Concepts**
-  - Supervised Learning
-  - Model Training
-  - Model Evaluation Metrics
+- Logistic Regression
+- Decision Trees
+- Support Vector Machines (SVM)
+- Classification metrics
+- Confusion matrix
+- Precision, Recall, F1-score
+- Accuracy
+
+#### Current Supervised Learning Progression
+
+```text
+Linear Regression
+    ↓
+Logistic Regression
+    ↓
+K-Nearest Neighbors (KNN)
+    ↓
+Naive Bayes
+    ↓
+Decision Tree
+    ↓
+Random Forest
+    ↓
+SVM
+    ↓
+AdaBoost
+    ↓
+Gradient Boosting
+    ↓
+XGBoost
+    ↓
+Model Evaluation
+    ↓
+Hyperparameter Tuning
+```
 
 ---
 
@@ -147,7 +151,7 @@ Current Practice:
 
 ```text
 Colab-work/
-
+│
 ├── 01_Python_Basics/
 │   └── python_basics.py
 │
@@ -158,21 +162,17 @@ Colab-work/
 │   └── pandas.ipynb
 │
 ├── 04_Data_Cleaning/
-│   └── (Data cleaning exercises - coming soon)
 │
 ├── 05_Data_Visualization/
 │   └── Matplotlib/
-│       ├── Matplotlib.ipynb
-│       ├── Matplotlib.py
-│       └── matplotlib_examples.py
 │
 ├── 06_Machine_Learning/
 │   ├── Linear_Regression.ipynb
 │   ├── Practice_Linear_Regression.ipynb
-│   ├── Classification Metrics.ipynb
 │   ├── logistic_regression.ipynb
 │   ├── Decision Tree.ipynb
-│   ├── Practice notebook for linear regression.ipynb
+│   ├── Classification Metrics.ipynb
+│   ├── SVM_Practice.py
 │   └── supervisedML.py
 │
 ├── CheatSheets/
@@ -184,9 +184,6 @@ Colab-work/
 │   ├── orders.csv
 │   └── SuperStore.xls
 │
-├── Practice_Programs/
-│   └── (Practice exercises - coming soon)
-│
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -196,146 +193,106 @@ Colab-work/
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Shivamxxpathak/Colab-work.git
 cd Colab-work
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Open the notebooks
+### Open the notebooks
 
-You can open the notebooks in:
+The notebooks can be opened with **Google Colab, Jupyter Notebook, or JupyterLab**.
 
-- Jupyter Notebook
-- JupyterLab
-- Google Colab
-
-Recommended starting points:
-
-1. **Python Basics:** [01_Python_Basics/python_basics.py](01_Python_Basics/python_basics.py)
-2. **NumPy:** [02_NumPy/Numpy.ipynb](02_NumPy/Numpy.ipynb)
-3. **Pandas:** [03_Pandas/pandas.ipynb](03_Pandas/pandas.ipynb)
-4. **Data Visualization:** [05_Data_Visualization/Matplotlib/Matplotlib.ipynb](05_Data_Visualization/Matplotlib/Matplotlib.ipynb)
-5. **Machine Learning:**
-   - [06_Machine_Learning/Linear_Regression.ipynb](06_Machine_Learning/Linear_Regression.ipynb)
-   - [06_Machine_Learning/logistic_regression.ipynb](06_Machine_Learning/logistic_regression.ipynb)
-   - [06_Machine_Learning/Decision Tree.ipynb](06_Machine_Learning/Decision%20Tree.ipynb)
-   - [06_Machine_Learning/Classification Metrics.ipynb](06_Machine_Learning/Classification%20Metrics.ipynb)
-
-### 4. Run the files
-
-- Use Python scripts directly with:
+### Run Python practice files
 
 ```bash
-python file_name.py
+python 06_Machine_Learning/SVM_Practice.py
 ```
 
-- Open notebooks cell by cell to follow the practice exercises.
+---
+
+## 🆕 Latest Update — August 24, 2026
+
+- ✅ Added hands-on **SVM practice** with feature scaling and classification
+- ✅ Added SVM evaluation using accuracy, classification report, and confusion matrix
+- ✅ Added **GridSearchCV** hyperparameter tuning for SVM
+- ✅ Updated the supervised-learning roadmap
+- ✅ Refreshed the repository README to match the current learning stage
 
 ---
 
-## 🆕 Recent Updates
-
-The repository has been reorganized for better structure and clarity:
-
-- ✅ All machine learning notebooks consolidated in `06_Machine_Learning/` folder
-- ✅ Added Classification Metrics, Logistic Regression, and Decision Tree notebooks
-- ✅ Organized visualization materials under `05_Data_Visualization/`
-- ✅ CheatSheets folder organized with NumPy and Pandas quick references
-- ✅ All datasets consolidated in `Datasets/` folder (including SuperStore.xls)
-- ✅ Improved folder structure with clear naming conventions
-- ✅ Renamed `Copy_of_logistic_regression.ipynb` → `logistic_regression.ipynb` for better clarity
-
----
-
-## 🛠 Technologies Used
+## 🛠 Technologies
 
 - Python
 - NumPy
 - Pandas
 - Matplotlib
+- Seaborn
 - Scikit-Learn
 - Google Colab
 - Jupyter Notebook
 
 ---
 
-## 📚 Learning Resources
-
-- Python Documentation
-- NumPy Documentation
-- Pandas Documentation
-- Scikit-Learn Documentation
-- Google Colab
-
----
-
-## 🎯 Current Learning Path
+## 📌 Current Progress
 
 - ✅ Python Basics
 - ✅ NumPy
 - ✅ Pandas
-- ✅ Data Cleaning
 - ✅ Data Visualization
-- ✅ Machine Learning Basics
+- ✅ Linear Regression
+- ✅ Logistic Regression
+- ✅ Decision Tree
+- ✅ Classification Metrics
+- ✅ SVM Practice
+- ⬜ KNN
+- ⬜ Naive Bayes
+- ⬜ Random Forest
+- ⬜ AdaBoost
+- ⬜ Gradient Boosting
+- ⬜ XGBoost
 - ⬜ Feature Engineering
-- ⬜ Statistics
-- ⬜ SQL
-- ⬜ Power BI
-- ⬜ Deep Learning
-- ⬜ Natural Language Processing
-- ⬜ Computer Vision
-- ⬜ Generative AI
+- ⬜ Advanced Model Evaluation
+- ⬜ End-to-End ML Projects
 
 ---
 
-## 💡 Why this Repository?
+## 🎯 Why This Repository Exists
 
-This repository serves as my:
+This repository is my **learning log, revision resource, interview-practice space, and technical portfolio**.
 
-- Daily Practice Log
-- Revision Notes
-- Interview Preparation
-- Data Science Learning Journey
-- Portfolio for Recruiters
+The focus is not only on collecting notebooks, but on understanding concepts by implementing them, testing them on datasets, evaluating models, and improving them through practice.
 
 ---
 
-## 📈 Future Plans
+## 🔮 Future Plans
 
-I will continue updating this repository with:
-
-- Mini Projects
-- Data Analysis Projects
-- Machine Learning Projects
-- Deep Learning Projects
-- Kaggle Notebooks
-- Real-world Datasets
-- Interview Questions
-
----
-
-## ⭐ If you like this repository
-
-Please consider giving it a ⭐.
-
-It motivates me to keep learning and sharing my work.
+- Complete the supervised-learning algorithm track
+- Add model-comparison notebooks
+- Practice feature engineering
+- Build end-to-end machine-learning projects
+- Add data-analysis projects
+- Explore Deep Learning, NLP, Computer Vision, and Generative AI
 
 ---
 
 ## 👨‍💻 Author
 
-**Shivam Pathak**
-
-Computer Science Engineering Student
-
+**Shivam Pathak**  
+Computer Science Engineering Student  
 Aspiring AI & Machine Learning Engineer
 
-📌 Learning • Building • Growing Every Day 🚀
+> Learning • Building • Improving 🚀
+
+---
+
+## ⭐ Repository
+
+If this learning journey is useful, consider giving the repository a ⭐.
